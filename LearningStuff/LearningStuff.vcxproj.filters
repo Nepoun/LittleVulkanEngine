@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Arquivos de Origem\shaders">
+      <UniqueIdentifier>{539e15c5-5a85-4782-b359-71828a42b1db}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -27,10 +30,27 @@
     <ClCompile Include="lve_window.hpp">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClCompile>
+    <ClCompile Include="lve_pipeline.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="first_app.hpp">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
+    <ClInclude Include="lve_pipeline.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\simple_shader.vert">
+      <Filter>Arquivos de Origem\shaders</Filter>
+    </None>
+    <None Include="shader\simple_shader.frag">
+      <Filter>Arquivos de Origem\shaders</Filter>
+    </None>
+    <None Include="compile.bat">
+      <Filter>Arquivos de Origem</Filter>
+    </None>
   </ItemGroup>
 </Project>
